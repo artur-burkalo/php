@@ -71,7 +71,7 @@ class Telephone {
         }
 
         else {
-            $udefined = "Irish Numbernor Recognised";
+            $udefined = "Irish Number Not Recognised";
             $numbers = ['inter'     =>  $udefined, 
                         'link'      =>  $udefined, 
                         'standard'  =>  $udefined,];
