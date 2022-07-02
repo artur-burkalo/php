@@ -1,0 +1,37 @@
+$font: "Montserrat", sans-serif;
+$m_color: #0b2035;
+$s_color: #fc7904;
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: $font;
+  font-size: 16px;
+}
+
+section {
+  padding: 20px 15px;
+  width: 100%;
+}
+
+table {
+  border: none;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  width: 25%;
+  text-align: left;
+}
+
+th {
+  background-color: $m_color;
+  color: #fff;
+}
